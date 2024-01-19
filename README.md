@@ -1,3 +1,2 @@
 # ByTheWay-website
-This is my website,  created for startup, which developing app "By The Way". 
-Written with SASS, JS, pseudo-classes CSS  and  pseudo-elements CSS .
+Это мой сайт, созданный для стартапа, который разрабатывает приложение "By the Way". Написан с использованием SASS, JS, псевдоклассов CSS и псевдоэлементов CSS.
