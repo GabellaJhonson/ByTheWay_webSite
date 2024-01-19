@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>By The Way</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+</head>
+<body>
+<header>
+    <div class="container">
+        <nav>
+            <a href="#" class="header_logo"><img src="img/logo1.png" alt="logo"></a>
+            <ul class="menu">
+                <li class="menu_item"><a href="#" class="menu_link">Главная</a></li>
+                <li class="menu_item"><a href="#app" class="menu_link">О приложении</a></li>
+                <li class="menu_item"><a href="#opportunities" class="menu_link">Функции</a></li>
+                <li class="menu_item"><a href="#partners" class="menu_link">Партнеры</a></li>
+                <li class="menu_item"><a href="#reviews" class="menu_link">Отзывы</a></li>
+            </ul>
+            <a href="#" class="header_tiktok"><img src="img/tiktok_logo.png" alt="tiktok"></a>
+            <a href="" target="_blank" class="header_inst"><img src="img/inst_logo.png" alt="inst"></a>
+            <a href="#application" class="header_prem">Получить PREMIUM бесплатно</a>
+            
+        </nav>
+    </div>
+    <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+</header>
+
+<section class="btw">
+    <div class="container">
+        <h1>By The Way</h1>
+        <div class="btw_text">           
+            Исследуйте красоты Беларуси с 
+            помощью <br> нашего приложения - планируйте маршруты,<br> узнавайте о 
+            достопримечательностях,<br> бронируйте отели и наслаждайтесь<br> 
+            неповторимыми путешествиями!
+        </div>
+        <div class="btw_buttons">
+            <a href="https://t.me/ByTheWay0_bot" class="btw_buttons_telegram">
+                <div class="btw_buttons_telegram_img"><img src="img/telegram_logo.png" alt="telegram bot logo"></div>
+                <div class="btw_buttons_telegram_text">Наш бот в<br><span>Telegram</span></div>
+            </a>
+            <a href="#" class="btw_buttons_google">
+                <div class="btw_buttons_google_img"><img src="img/google-play-5.svg" alt="goole play logo"></div>
+                <div class="btw_buttons_google_text">Получить в <br><span>Google Play</span></div>
+            </a>
+            <a href="#" class="btw_buttons_apple">
+                <div class="btw_buttons_apple_img"><img src="img/apple.svg" alt="app store logo"></div>
+                <div class="btw_buttons_apple_text">Скачать в <br><span>App Store</span></div>
+            </a>
+
+        </div>
+            
+        <img class="btw_img" src="img/mobile_bg2.png" alt="phone">
+    </div>  
+</section>
+
+<section class="app" id="app">
+    <div class="container">
+        <h2 class="title">О приложении</h2>
+        <div class="app_text">Вы любите путешествовать, но не знаете, как 
+            спланировать свое следующее приключение?<br><br> 
+            <span class="app_text_black">By The Way</span> – ваш личный помощник в мире путешествий. 
+            Создайте свой <span class="app_text_black">индивидуальный</span> маршрут, 
+            выбирая понравившиеся места или выберите  из множества <span class="app_text_black">тематических маршрутов</span>, 
+            которые подойдут любому вкусу и бюджету.<br><br> 
+            By The Way поможет вам открыть<br> новые горизонты и насладиться 
+            путешествием<br> без хлопот. 
+            Скачайте приложение By the way и начните свое 
+            путешествие <span class="app_text_black">прямо сейчас!</span>
+        </div>
+            
+        <div class="app_item">
+            <div class="app_item_1000">
+                <div id="counter1000" data-count="1000" class="app_item_title">0</div>
+                <div class="app_item_subtitle">точек на карте</div>
+            </div>
+            <div class="app_item_50">
+                <div id="counter50" data-count="50" class="app_item_title">0</div>
+                <div class="app_item_subtitle">маршрутов</div>
+            </div>
+            <div class="app_item_9">
+                <div id="counter9" data-count="9" class="app_item_title">0</div>
+                <div class="app_item_subtitle">партнеров</div>
+            </div>
+        </div>
+        
+        <img class="app_img" src="img/3phones2.png" alt="3phones">
+    </div>
+   
+</section>
+
+<section class="opportunities" id="opportunities">
+    <div class="container">
+        <h2 class="title">возможности приложения</h2>
+        <div class="row">
+            
+            <div class="col-xl-4 col-lg-4 col-md-5 col-8">
+                <div class="opportunities_item">
+                    <div class="opportunities_item_img opportunities_item_img_1"><img src="img/opp1.png" alt="opp1"></div>
+                    
+                    <div class="opportunities_item_block">
+                        <div class="opportunities_item_block_title">категории</div>
+                        <div class="opportunities_item_block_text">Интересные маршруты на 
+                            любой вкус: от природы до гастроно-<br>мии. 
+                            Выбирайте свою категорию и отправляйтесь в путь!
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xl-4 col-lg-4 col-md-5 col-8">
+                <div class="opportunities_item">
+                    <div class="opportunities_item_img opportunities_item_img_2"><img src="img/opp2.png" alt="opp2"></div>
+                    
+                    <div class="opportunities_item_block">
+                        <div class="opportunities_item_block_title">конструктор маршрутов</div>
+                        <div class="opportunities_item_block_text">Соберайте свой маршрут по 
+                            Беларуси как конструктор или редактируйте существующий. Все по вашему желанию!</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xl-4 col-lg-4 col-md-5 col-8">
+                <div class="opportunities_item">
+                    <div class="opportunities_item_img opportunities_item_img_3"><img src="img/opp3.png" alt="opp3"></div>
+                    
+                    <div class="opportunities_item_block">
+                        <div class="opportunities_item_block_title">места по пути</div>
+                        <div class="opportunities_item_block_text">Не упускайте интересные места, которые находятся по 
+                            пути вашего маршрута, узнавайте их истории и легенды!</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xl-4 col-lg-4 col-md-5 col-8">
+                <div class="opportunities_item">
+                    <div class="opportunities_item_img opportunities_item_img_4"><img src="img/opp4.png" alt="opp4"></div>
+                    
+                    <div class="opportunities_item_block">
+                        <div class="opportunities_item_block_title">cкидки, акции, купоны</div>
+                        <div class="opportunities_item_block_text"> Получайте эксклюзивные акции и купоны. 
+                            Экономьте и наслаждайтесь уникальными приключениями!</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xl-4 col-lg-4 col-md-5 col-8">
+                <div class="opportunities_item">
+                    <div class="opportunities_item_img opportunities_item_img_5"><img src="img/opp5.png" alt="opp5"></div>
+                    
+                    <div class="opportunities_item_block">
+                        <div class="opportunities_item_block_title">каршеринг/бронь отелей</div>
+                        <div class="opportunities_item_block_text">Сравнивайте цены и отзывы. Бронируйте нужный 
+                            вам автомобиль или отель прямо в приложении!</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xl-4 col-lg-4 col-md-5 col-8">
+                <div class="opportunities_item">
+                    <div class="opportunities_item_img opportunities_item_img_6"><img src="img/opp6.png" alt="opp6"></div>
+                    
+                    <div class="opportunities_item_block">
+                        <div class="opportunities_item_block_title">совместные поездки</div>
+                        <div class="opportunities_item_block_text">Путешествуйте с компанией, отслеживайте местоположение ваших компаньонов на карте. 
+                            И получайте совместные бонусы!</div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</section>
+
+<section class="reviews" id="reviews">
+    <div class="container">
+        <h2 class="title">Что о нас <span>говорят?</span></h2>
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    
+                    <div class="swiper-slide_wrapper">
+                        <div class="swiper-slide_wrapper_logo"><img src="img/man1.png" alt="logo"></div>
+                    
+                        <div class="swiper-slide_wrapper_header">
+                            <div class="swiper-slide_wrapper_header_title">
+                                <div class="swiper-slide_wrapper_header_title_name">Андрей, 23 года</div>
+                                <div class="swiper-slide_wrapper_header_title_work">студент БНТУ ФТУГ</div> 
+                            </div>
+                            <div class="swiper-slide_wrapper_header_stars"><img src="img/5stars.png" alt="stars"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="swiper-slide_text">
+                        Давно увлекаюсь путешествиями и изучением архитектуры Беларуси. 
+                        Очень не хватало места, где все интересные точки собраны в одно и приправлены удобным 
+                        интерфейсом. By The Way для меня оказалось решением этой проблемы, с 
+                        нетерпением жду выхода полноценной версии😄  
+                    </div>
+                </div>
+                
+                <div class="swiper-slide">
+                    <div class="swiper-slide_wrapper">
+                        <div class="swiper-slide_wrapper_logo"><img src="img/man2.png" alt="logo"></div>
+                    
+                        <div class="swiper-slide_wrapper_header">
+                            <div class="swiper-slide_wrapper_header_title">
+                                <div class="swiper-slide_wrapper_header_title_name">Никита, 25 лет</div>
+                                <div class="swiper-slide_wrapper_header_title_work">участник автопробегов клуба "поЕхавших"</div> 
+                            </div>
+                            <div class="swiper-slide_wrapper_header_stars"><img src="img/5stars.png" alt="stars"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="swiper-slide_text">
+                        Участвую в автопробегах уже пару лет и все это время сталкивался с проблемой 
+                        организацией поездок. Тяжело скоординировать маршрут, 
+                        координаты приходится вводить вручную каждому участнику, и они не всегда точные. 
+                        Прототип приложения зацепил, хороший функционал для групповых путешествий. 
+                        Однозначно буду пользоваться) 
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="swiper-slide_wrapper">
+                        <div class="swiper-slide_wrapper_logo"><img src="img/woman.png" alt="logo"></div>
+                    
+                        <div class="swiper-slide_wrapper_header">
+                            <div class="swiper-slide_wrapper_header_title">
+                                <div class="swiper-slide_wrapper_header_title_name">Ирина, 39 лет</div>
+                                <div class="swiper-slide_wrapper_header_title_work">бухгалтер в компании</div> 
+                            </div>
+                            <div class="swiper-slide_wrapper_header_stars"><img src="img/5stars.png" alt="stars"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="swiper-slide_text">
+                        Из-за нехватки времени в последние годы в путешествия выбираемся с 
+                        семьёй всё реже и реже. Ещё сложнее с выбором маршрута - каждому нравится своё. 
+                        К тому же, по пути не обходится без поисков кафе, желательно подешевле. К счастью для себя увидела в 
+                        Инстаграме новость о запуске прототипа приложения by the way, 
+                        онравилось количество фишек для облегчения всего этого. Будем следить за развитием)  
+                    </div>
+                </div>
+                
+                <div class="swiper-slide">
+                    <div class="swiper-slide_wrapper">
+                        <div class="swiper-slide_wrapper_logo"><img src="img/man1.png" alt="logo"></div>
+                    
+                        <div class="swiper-slide_wrapper_header">
+                            <div class="swiper-slide_wrapper_header_title">
+                                <div class="swiper-slide_wrapper_header_title_name">Андрей, 23 года</div>
+                                <div class="swiper-slide_wrapper_header_title_work">студент БНТУ ФТУГ</div> 
+                            </div>
+                            <div class="swiper-slide_wrapper_header_stars"><img src="img/5stars.png" alt="stars"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="swiper-slide_text">
+                        Давно увлекаюсь путешествиями и изучением архитектуры Беларуси. 
+                        Очень не хватало места, где все интересные точки собраны в одно и приправлены удобным 
+                        интерфейсом. By The Way для меня оказалось решением этой проблемы, с 
+                        нетерпением жду выхода полноценной версии😄  
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="swiper-slide_wrapper">
+                        <div class="swiper-slide_wrapper_logo"><img src="img/man2.png" alt="logo"></div>
+                    
+                        <div class="swiper-slide_wrapper_header">
+                            <div class="swiper-slide_wrapper_header_title">
+                                <div class="swiper-slide_wrapper_header_title_name">Никита, 25 лет</div>
+                                <div class="swiper-slide_wrapper_header_title_work">участник автопробегов клуба "поЕхавших"</div> 
+                            </div>
+                            <div class="swiper-slide_wrapper_header_stars"><img src="img/stars.png" alt="5stars"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="swiper-slide_text">
+                        Участвую в автопробегах уже пару лет и все это время сталкивался с проблемой 
+                        организацией поездок. Тяжело скоординировать маршрут, координаты приходится 
+                        вводить вручную каждому участнику, и они не всегда точные. Прототип приложения зацепил, 
+                        хороший функционал для групповых путешествий. Однозначно буду пользоваться)  
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="swiper-slide_wrapper">
+                        <div class="swiper-slide_wrapper_logo"><img src="img/woman.png" alt="logo"></div>
+                    
+                        <div class="swiper-slide_wrapper_header">
+                            <div class="swiper-slide_wrapper_header_title">
+                                <div class="swiper-slide_wrapper_header_title_name">Ирина, 39 лет</div>
+                                <div class="swiper-slide_wrapper_header_title_work">бухгалтер в компании</div> 
+                            </div>
+                            <div class="swiper-slide_wrapper_header_stars"><img src="img/5stars.png" alt="stars"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="swiper-slide_text">
+                        Из-за нехватки времени в последние годы в путешествия выбираемся с семьёй всё реже и реже. 
+                        Ещё сложнее с выбором маршрута - каждому нравится своё. 
+                        К тому же, по пути не обходится без поисков кафе, желательно подешевле. 
+                        К счастью для себя увидела в Инстаграме новость о запуске прототипа приложения by the way, 
+                        понравилось количество фишек для облегчения всего этого. Будем следить за развитием)
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <a href="#" class="reviews_btn">Оставить отзыв</a>
+    </div>
+</section>
+
+<section class="partners" id="partners">
+    <div class="container">
+        <h2 class="title">Наши партнёры</h2>
+        <div class="partners_wrapper">
+            <img src="img/space_logo.png" alt="space logo">
+            <img src="img/belarus_logo.png" alt="belarus logo">
+            <img src="img/green.png" alt="greenriver logo">
+        </div>
+    </div>
+</section>
+
+<section class="application" id="application">
+    <div class="container">
+        <div class="row">
+            <div class="application_tryBot" id="tryBot">
+                <div class="application_tryBot_content">
+                    Ваши данные успешно отправлены!<br><br>
+                    Пока приложение находится в разработке, Вы можете попробовать воспользоваться нашим телеграмм ботом:
+                    <a href="https://t.me/ByTheWay0_bot"><img src="img/telegram_logo.png" alt="telegram bot"></a>
+                </div>
+            </div>
+            <div class="col-xl-5  col-lg-4 offset-lg-1 col-10 offset-1">
+                <div class="application_text">
+                    <div class="application_text_subtitle">Оставьте заявку прямо сейчас</div>
+                    <div class="application_text_title">И получите постоянную Premium  версию бесплатно</div>
+                    <div id="applicationText" class="application_text_description">*когда вы заполняли форму, мы уже почти<br> доделали приложение. 
+                        Как только оно будет<br> готово, мы сообщим вам через электронную<br> почту и как бонус 
+                        предоставим постоянный<br> доступ к 
+                        PREMIUM версии бесплатно</div>
+                </div>
+            </div>
+        
+            <div class="col-xl-5 col-lg-5 col-10 offset-1">
+                <div class="application_item">
+                    <img class="application_item_img" src="img/application_img.png" alt="1">
+                    <form class="application_item_form" action="" name="submit-to-google-sheet">
+                        <div class="application_item_form_title">Заполните форму</div>
+                        <input id="name" name="Name" type="text" placeholder="Имя" required>
+                        <input id="emailUser" name="Email" type="email" placeholder="Электронная почта" required>
+                        <input id="phone" name="phoneNumber" type="tel" placeholder="Номер телефона" required>
+                        <input id="submit" type="submit" value="Получить PREMIUM">
+                        <span id="ansForm"></span>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-2 offset-lg-1 col-10 offset-1">
+                <a href="#" class="footer_logo"><img src="img/logo2.png" alt="logo"></a>
+            </div>
+            <div class="col-lg-3 col-10 offset-1">
+                <a href="#" class="footer_laws">© Все права защищены</a>
+                <a href="#" class="footer_policy">Политика конфиденциальности</a>
+            </div>
+            <div class="col-lg-4 offset-lg-1 col-10 offset-1">
+               <div class="footer_media">
+                    <div id="email" class="footer_media_email">
+                        appbytheway1@gmail.com
+                        <div class="footer_media_email_help">Нажмите, чтобы скопировать</div>
+                    </div>
+                   
+                    <a href="https://www.instagram.com/the.way.by" target="_blank" class="footer_media_inst"><img src="img/inst_logo_2.png" alt="inst"></a>
+                    <a href="#" class="footer_media_tiktok"><img src="img/tiktok_logo_2.png" alt="tiktok"></a>
+               </div>
+            </div>
+        </div>
+    </div>
+</footer>
+ 
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="js/swiper.js"></script>
+    <script src="js/hamburger.js"></script>
+    <script src="js/countAnimation.js"></script>
+    <script src="js/dataForm.js"></script>
+    <script src="js/opacityText.js"></script>
+    <script src="js/emailCopy.js"></script>
+
+</body>
+</html>
+

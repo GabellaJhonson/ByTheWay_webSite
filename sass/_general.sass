@@ -1,0 +1,587 @@
+header
+    position: fixed
+    height: 49px
+    width: 100%
+    background-color: rgba(255, 255, 255, 1)
+    z-index: 2
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.3)
+
+nav
+    display: flex
+    align-items: center
+    height: 49px   
+
+#ansForm
+    color: #000
+    display: block
+    margin-top: 1px
+    font-size: 10px
+    font-weight: 300
+    line-height: 10px
+    text-align: center
+
+.hamburger
+    display: none
+
+.header
+    &_logo
+        display: block
+        img
+            width: 142px
+            height: 16px
+
+        margin: 0 0 0 54px
+
+    &_tiktok
+        display: block
+        margin-left: 150px
+        img
+            width: 20px
+            height: 20px
+    &_inst
+        display: block
+        margin-left: 10px
+        img
+            width: 21px
+            height: 18px
+
+    &_prem
+        display: flex
+        margin-left: 10px
+        align-items: center
+        justify-content: center
+        width: 265px
+        height: 25px
+        border-radius: 30px
+        background-color: #68C4C6
+        color: #FFF
+        font-size: 16px
+        font-weight: 800
+        line-height: 16px
+        text-decoration: none
+        transition: 0.8s all
+        &:hover
+            color: #FFF
+            background-color: #5aa0a1
+    
+.menu
+    list-style-type: none 
+    display: flex
+    align-items: center
+    justify-content: center
+    margin: 0 0 0 10px
+
+    &_item
+        margin-left: 30px
+    &_link
+        text-decoration: none
+        text-transform: uppercase
+        color: rgba(0, 0, 0, 0.54)
+        font-size: 13px
+        font-weight: 800
+        line-height: 13px
+        transition: 0.8s all
+        &:hover
+            color: rgba(0, 0, 0, 1)
+
+h1
+    margin: 110px 0 0 108px
+    color: #FFF
+    font-style: normal
+    font-size: 60px
+    font-weight: 900
+    line-height: 60px 
+    text-transform: uppercase
+
+.btw
+    min-height: 637px
+    padding: 83px 0 40px 0
+    background: url('../img/mir_castle.jpeg') center (center / cover) no-repeat
+    &_text
+        width: 522px
+        margin: 0
+        margin-top: 28px
+        margin-left: 108px
+        color: #FFF
+        font-size: 24px
+        font-weight: 400
+        line-height: 24px
+    &_img
+       display: block
+       width: 547.65px
+       height: 562.93px
+       position: absolute
+       top: -80px
+       right: 90px
+    &_buttons
+        margin-top: 50px
+        margin-left: 80px
+        display: flex
+        &_google, &_apple, &_telegram
+            margin-left: 44px
+            display: flex
+            align-items: center
+            justify-content: center
+            width: 141px
+            height: 41px
+            text-decoration: none
+            border-radius: 15px
+            color: #FFF
+            font-size: 11px
+            border: 1px solid black
+            font-weight: 100
+            line-height: 14px
+            background-color: black
+            transition: 0.8s all
+            &:hover
+                color: white
+                border: 1px solid white  
+            .btw_buttons_google_img
+                img
+                    width: 25px
+                    height: 25px
+            .btw_buttons_apple_img               
+                img
+                    width: 30px
+                    height: 30px
+            .btw_buttons_telegram_img
+                img
+                    width: 30px
+                    height: 30px
+            .btw_buttons_telegram_text
+                font-weight: 400
+
+
+            &_text
+                margin-left: 5px
+                span
+                    font-size: 15px
+                    font-weight: 600
+                    line-height: 15px
+
+.app
+    padding: 126px 0 100px 0
+    min-height: 607px
+    background-color: #fff
+    &_text
+        margin-left: 108px
+        margin-top: 28px
+        width: 462px
+        color: #3B3A3A
+        font-size: 20px
+        font-weight: 400
+        line-height: 22px
+        &_black
+            color: #3B3A3A
+            font-weight: 600
+    &_item
+        display: flex
+        align-items: center
+        margin-top: 28px
+        &_title
+            color: #14CED2
+            font-size: 30px
+            font-weight: 900
+            line-height: 30px 
+            text-transform: uppercase
+        &_subtitle
+            color: #4F4F4F
+            font-size: 17px
+            font-weight: 400
+            line-height: 17px 
+        &_1000
+            padding: 10px
+            margin-left: 115px
+            width: 143px
+            height: 63px
+            border-radius: 10px
+            background-color: #EEEEEE   
+        &_50
+            padding: 10px
+            margin-left: 14px
+            width: 110px
+            height: 63px
+            border-radius: 10px
+            background-color: #EEEEEE   
+        &_9
+            padding: 10px
+            margin-left: 14px
+            width: 110px
+            height: 63px
+            border-radius: 10px
+            background-color: #EEEEEE
+    &_img
+        display: block
+        width: 554.29px
+        height: 568.88px
+        position: absolute
+        top: -110px
+        right: 90px
+
+.title  
+    margin-left: 108px
+    color: #000
+    font-size: 36px
+    font-weight: 900
+    line-height: 36px
+    text-transform: uppercase    
+
+.opportunities
+    min-height: 800px
+    background-color: #fff
+    padding: 44px 0 72px 0
+    &_item
+        margin-top: 20px
+        position: relative
+        &_block
+            padding: 15px 10px 10px 10px
+            position: absolute
+            top: 281px
+            left: 50%
+            transform: translateX(-50%)
+            width: 309px
+            height: 115px
+            background-color: #EAEAEA
+            border-radius: 16px
+            &_title
+                color: #000
+                font-size: 18px
+                font-weight: 700
+                line-height: 18px
+                text-transform: uppercase
+            &_text
+                color: #555
+                font-size: 17px
+                font-weight: 400
+                line-height: 17px
+        &_img
+            margin-top: 50px
+            img
+                height: 380px
+            &_1
+                margin-left: 1%
+            &_2
+                margin-left: 10%
+            &_3
+                margin-left: 1%
+            &_4
+                margin-left: 9%
+            &_5
+                margin-left: 17%
+            &_6
+                margin-left: 8%
+ 
+.reviews
+    min-height: 605px
+    background: url('../img/Frame4.png') center (center / cover) no-repeat
+    padding: 85px 0 72px 0
+    .title
+        width: 404px
+        margin: 0 auto
+        span
+            color: #4FB6B8
+    &_btn
+        margin: 0 auto
+        margin-top: 20px
+        width: 211px
+        height: 39px
+        display: flex
+        align-items: center
+        justify-content: center
+        border-radius: 25px
+        background-color: #68C4C6
+        text-decoration: none
+        color: #FFF
+        font-size: 22px
+        font-weight: 700
+        line-height: 17px
+        transition: 0.8s all
+        &:hover
+            background-color: #5aa0a1
+            color: white
+      
+.swiper
+    width: 67%
+    height: 100%
+    margin-top: 50px
+    z-index: 1
+
+.swiper-slide 
+    min-height: 300px
+    padding: 25px 15px 25px 15px
+    text-align: center
+    font-size: 18px
+    background: #fff
+    border-radius: 25px
+    border: 4px solid #68C4C6
+    &_wrapper
+        display: flex
+        justify-content: center
+        align-items: center
+        width: 100%
+        &_logo
+            width: 20%
+        &_header
+            margin-left: 15px
+            width: 79%
+            &_title
+                text-align: left
+                color: #000
+                font-size: 16px
+                font-weight: 700
+                line-height: 17px
+                &_name
+                    font-size: 20px
+                &_work
+                    margin-top: 5px        
+            &_stars
+                margin-top: 5px
+                width: 50%
+    &_text
+        margin: 0 auto  
+        margin-top: 10px
+        width: 100%
+        height: 100%
+        color: #000
+        font-size: 16px
+        font-weight: 400
+        line-height: 22px
+        text-align: left
+
+.swiper-slide img 
+    display: block
+    width: 100%
+    height: 100%
+    object-fit: cover
+
+.swiper-button-prev, .swiper-button-next 
+    margin-top: 0.2%
+    margin-left: 13%
+    margin-right: 13%
+    z-index: 1    
+    &::after
+        color: #68C4C6
+        font-weight: 1000
+
+.partners
+    min-height: 471px
+    padding: 68px 0 137px 0
+    background-color: #fff
+    &_wrapper
+        margin: 50px auto 0
+        width: 100%
+        min-height: 200px
+        display: flex
+        flex-wrap: wrap
+        align-items: center
+        justify-content: center 
+        img
+            display: block
+            margin: 0 auto
+
+            &:nth-child(1)
+                width: 200px
+                height: 116px
+            &:nth-child(2)
+                width: 185px
+                height: 145px
+            &:nth-child(3)
+                width: 170px
+                height: 145px
+                
+    .title
+        width: 331px
+        margin: 0 auto
+    
+.application
+
+    min-height: 471px
+    padding: 50px 0 150px 0
+    &_tryBot
+        display: none
+        position: fixed
+        z-index: 3
+        padding-top: 100px
+        left: 0
+        top: 0
+        width: 100%
+        height: 100%
+        overflow: auto
+        background-color: rgb(0,0,0)
+        background-color: rgba(0,0,0,0.4)
+        &_content
+            background-color: #fefefe
+            margin: auto
+            padding: 20px
+            border: 1px solid #888
+            width: 80%
+            text-align: center
+            font-size: 20px
+            font-weight: 400
+            line-height: 24px
+            a
+                display: block
+                margin: 50px auto 0
+                img
+                    width: 50px
+                    height: 50px
+    &_text
+        margin-top: 40px
+        &_subtitle
+            color: #555
+            font-size: 24px
+            font-weight: 500
+            line-height: 20px
+        &_title
+            margin-top: 5px
+            color: #000
+            font-size: 30px
+            font-weight: 800
+            line-height: 36px
+            text-transform: uppercase
+        &_description
+            margin-top: 15px
+            color: #363636
+            font-size: 20px
+            font-weight: 400
+            line-height: 24px
+    &_item
+        position: relative
+        &_form
+            display: block
+            margin-top: 40px
+            padding: 36px 49px 30px 33px
+            width: 444px
+            height: 304px
+            border-radius: 25px
+            border: 4px solid #AAA
+            background: #FFF
+            &_title
+                width: 287px
+                margin: 0 auto
+                color: #000 
+                font-size: 28px
+                font-weight: 700
+                line-height: 28px
+                text-transform: uppercase
+            input
+                width: 362px
+                min-height: 37px 
+                padding: 7px 25px 7px 25px
+                margin-top: 11px
+                border-radius: 5px
+                border: 1px solid #9C9C9C
+                background: #F2F2F2
+                color: #000000   
+                font-size: 16px
+                font-weight: 600
+                line-height: 16px
+                transition: 0.8s all
+                &:placeholder-shown                    
+                    color: #6C6C6C   
+                    font-size: 18px
+                    font-weight: 700
+                    line-height: 18px
+            input:nth-child(2)
+                margin-top: 25px
+            input:nth-child(5)
+                margin: 0 auto
+                display: flex
+                align-items: center
+                justify-content: center
+                margin-top: 19px
+                width: 228px
+                height: 42px
+                border-radius: 30px
+                background: #68C4C6
+                color: #FFF
+                font-size: 20px
+                font-weight: 800
+                line-height: 20px
+                transition: 0.8s all
+                border: none  
+                &:hover
+                    background-color: #5aa0a1       
+        &_img
+            position: absolute
+            z-index: -1
+            top: -100px
+            right: -5%
+            
+.footer
+    min-height: 87px
+    padding: 15px 0 15px 0
+    background-color: #3A3737
+    &_logo
+        display: block
+        margin-top: 15px
+        width: 142px
+        img
+            height: 16px
+    &_laws, &_policy
+        display: block
+        text-decoration: none
+        color: #C6C6C6
+        font-size: 16px
+        font-weight: 400
+        line-height: 16px
+        transition: 0.8s all
+        &:hover
+            color: #6b6b6b
+    &_laws
+        margin-top: 10px
+    &_policy
+        margin-top: 5px
+    &_media
+        display: flex
+        align-items: center
+        justify-content: center
+        margin-top: 10px
+        &_email
+            position: relative
+            color: #C6C6C6
+            font-size: 16px
+            font-weight: 400
+            line-height: 22px
+            cursor: pointer
+            &:hover &_help
+                visibility: visible
+                opacity: 0.7
+            &_help
+                visibility: hidden
+                width: 140px
+                height: 20px
+                color: white
+                font-size: 10px
+                font-weight: 100
+                line-height: 10px    
+                text-align: center
+                padding: 5px 0
+                position: absolute
+                z-index: 1
+                bottom: 100%    
+                left: 50%
+                margin-left: -60px
+                opacity: 0
+                transition: opacity 0.3s
+        &_inst
+            margin-left: 15px
+            img
+                width: 27px
+                height: 26px
+        &_tiktok
+            margin-left: 10px
+            img
+                width: 21px
+                height: 27px
+        a
+            display: block
+       
+
+    
+    
+
+
+
+
+    
